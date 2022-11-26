@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  padding: 2rem;
+  color: white;
+  font-weight: 500;
+}
+
+.card article {
+  background-color: rgb(42, 40, 40);
+  padding: 1rem;
+  width: 20vw;
+}
+
+.card div {
+  color: white;
+  font-weight: 300;
+}
